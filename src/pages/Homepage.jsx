@@ -9,7 +9,7 @@ import {
 import { Contact, School, Projects, Skills, Work } from '../components/index'
 const Homepage = () => {
   return (
-    <Box ml={10} mr={10} spaceY={4}>
+    <Box ml={10} mr={10} spaceY={4} maxW='100vw' overflowX='hidden'>
       <SimpleGrid columns={{ base: 2, md: 4 }} mt={10}>
         <GridItem
           colSpan={{ base: 1, md: 3 }}

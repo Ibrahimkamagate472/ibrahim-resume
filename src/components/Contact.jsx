@@ -60,7 +60,7 @@ const Contact = () => {
               href='https://app.joinhandshake.com/profiles/het24e'
               _hover={{ color: 'gray.400' }}
             >
-              <Icon as={SiHandshake} boxSize={{ base: 5, md: 8 }} />
+              <Icon as={SiHandshake} boxSize={{ base: 5, md: 7 }} />
             </Link>
             <Button
               as='a'
