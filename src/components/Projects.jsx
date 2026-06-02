@@ -11,8 +11,8 @@ const Projects = () => {
   return (
     <Box w='700px'>
       <Container spaceY={4}>
-        <Heading size={{ md: '3xl' }}>PROJECTS</Heading>
-        <Box spaceY={4}>
+        <Heading size={{ base: '2xl', md: '3xl' }}>PROJECTS</Heading>
+        <Box spaceY={4} maxW={{ base: '50%', md: '700px' }}>
           <Link
             href='https://github.com/Ibrahimkamagate472/Job-Tracker'
             target='_blank'
@@ -48,7 +48,7 @@ const Projects = () => {
             </List.Item>
           </List.Root>
         </Box>
-        <Box spaceY={4}>
+        <Box spaceY={4} maxW={{ base: '50%', md: '700px' }}>
           <Link
             href='https://github.com/Ibrahimkamagate472/Network'
             target='_blank'
@@ -57,7 +57,7 @@ const Projects = () => {
           </Link>
           <br />
           <Badge>C++</Badge>
-          <List.Root fontWeight='medium'>
+          <List.Root fontWeight='medium' spaceY={2}>
             <List.Item>
               Developed a Facebook-style social network simulation using an
               unordered map–based graph structure to manage user relationships.
@@ -78,7 +78,7 @@ const Projects = () => {
             </List.Item>
           </List.Root>
         </Box>
-        <Box spaceY={4}>
+        <Box spaceY={4} maxW={{ base: '50%', md: '700px' }}>
           <Link
             href='https://github.com/Ibrahimkamagate472/Phonebook-Management-System-'
             target='_blank'
@@ -87,7 +87,7 @@ const Projects = () => {
           </Link>
           <br />
           <Badge>C++</Badge>
-          <List.Root fontWeight='medium'>
+          <List.Root fontWeight='medium' spaceY={2}>
             <List.Item>
               Designed and implemented a modular phonebook management system
               featuring full CRUD operations, contact search functionality, and

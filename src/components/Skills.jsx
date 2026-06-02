@@ -3,7 +3,7 @@ const Skills = () => {
   return (
     <Box>
       <Container>
-        <Heading size={{ md: '3xl' }}>TECHNICAL SKILLS</Heading>
+        <Heading size={{ base: '2xl', md: '3xl' }}>TECHNICAL SKILLS</Heading>
         <Box>
           <Heading pb={2}>Languages</Heading>
           <Badge mx={1}>C++</Badge>

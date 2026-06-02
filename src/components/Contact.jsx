@@ -6,6 +6,7 @@ import {
   Button,
   Stack,
   Container,
+  Icon,
 } from '@chakra-ui/react'
 import { FaGithubSquare, FaLinkedin } from 'react-icons/fa'
 import { SiHandshake } from 'react-icons/si'
@@ -43,7 +44,7 @@ const Contact = () => {
               href='https://github.com/Ibrahimkamagate472'
               _hover={{ color: 'gray.400' }}
             >
-              <FaGithubSquare size={30} />
+              <Icon as={FaGithubSquare} boxSize={{ base: 6, md: 8 }} />
             </Link>
             <Link
               as='a'
@@ -51,7 +52,7 @@ const Contact = () => {
               href='https://linkedin.com/in/ibrahim-k-b36422264'
               _hover={{ color: 'gray.400' }}
             >
-              <FaLinkedin size={30} />
+              <Icon as={FaLinkedin} boxSize={{ base: 6, md: 8 }} />
             </Link>
             <Link
               as='a'
@@ -59,7 +60,7 @@ const Contact = () => {
               href='https://app.joinhandshake.com/profiles/het24e'
               _hover={{ color: 'gray.400' }}
             >
-              <SiHandshake size={27} />
+              <Icon as={SiHandshake} boxSize={{ base: 5, md: 8 }} />
             </Link>
             <Button
               as='a'
@@ -68,6 +69,7 @@ const Contact = () => {
               variant='ghost'
               w='100px'
               _hover={{ color: 'gray.400' }}
+              size={{ base: 'sm', md: 'md', lg: 'lg' }}
             >
               Portfolio
               <MoveRight />

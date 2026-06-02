@@ -3,7 +3,7 @@ const School = () => {
   return (
     <Box>
       <Container spaceY={4}>
-        <Heading size={{ md: '3xl' }}> EDUCATION </Heading>
+        <Heading size={{ base: '2xl', md: '3xl' }}> EDUCATION </Heading>
         <Box>
           <Heading>Hunter College</Heading>
           <Flex>
@@ -22,8 +22,8 @@ const School = () => {
             <Text ml='auto'>Aug. 2019 - Jan. 2021</Text>
           </Flex>
         </Box>
-        <Heading size={{ md: '3xl' }}>RELEVANT COURSEWORK</Heading>
-        <Text w='700px'>
+        <Heading size={{ base: '2xl', md: '3xl' }}>RELEVANT COURSEWORK</Heading>
+        <Text w={{ sm: '300px', md: '700px' }}>
           Intro to Computer Science, Object-Oriented Programming, Software
           Analysis and Design I, Software Analysis and Design II, Software
           Analysis and Design III, Discrete Structures, Computer Architecture I,

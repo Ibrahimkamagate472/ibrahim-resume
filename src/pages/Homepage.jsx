@@ -11,9 +11,19 @@ const Homepage = () => {
   return (
     <Box ml={10} mr={10} spaceY={4}>
       <SimpleGrid columns={{ base: 2, md: 4 }} mt={10}>
-        <GridItem colSpan={{ base: 1, md: 3 }}>
+        <GridItem
+          colSpan={{ base: 1, md: 3 }}
+          display='flex'
+          justifyContent='center'
+        >
           <Center>
-            <Heading size={{ base: 'lg', md: '5xl' }}>Ibrahim Kamagate</Heading>
+            <Heading
+              size={{ base: '3xl', md: '5xl' }}
+              textAlign='center'
+              mr={{ base: 2 }}
+            >
+              Ibrahim Kamagate
+            </Heading>
           </Center>
         </GridItem>
 
@@ -30,7 +40,7 @@ const Homepage = () => {
         mb={5}
       />
       <School />
-      <Work />
+      {/*<Work /> */}
       <Projects />
       <Skills />
     </Box>

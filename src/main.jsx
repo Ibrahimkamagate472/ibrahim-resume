@@ -6,7 +6,7 @@ import { BrowserRouter } from 'react-router'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename='/ibrahim-resume/'>
       <ChakraProvider value={defaultSystem}>
         <App />
       </ChakraProvider>
