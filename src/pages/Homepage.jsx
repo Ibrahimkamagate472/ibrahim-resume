@@ -40,7 +40,7 @@ const Homepage = () => {
         mb={5}
       />
       <School />
-      {/*<Work /> */}
+      <Work />
       <Projects />
       <Skills />
     </Box>
