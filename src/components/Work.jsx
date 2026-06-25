@@ -4,12 +4,34 @@ const Work = () => {
     <Box>
       <Container spaceY={4}>
         <Heading size={{ md: '3xl' }}>PROFESSIONAL EXPERIENCE</Heading>
-        {/*
-        <Flex>
-          <Heading>Cuny Tech Prep</Heading>
-          <Text ml='auto'>Jul. 2026 - Curr.</Text>
-        </Flex>
-        */}
+        <Box>
+          <Heading spaceY={2}>Data Science Fellow</Heading>
+          <Box spaceY={4}>
+            <Flex>
+              <Heading spaceY={2}>Cuny Tech Prep | Manhattan, NY</Heading>
+              <Text ml='auto'>Jul. 2026 - Curr.</Text>
+            </Flex>
+            <List.Root
+              fontWeight='medium'
+              spaceY={2}
+              maxW={{ base: '50%', md: '700px' }}
+            >
+              <List.Item>
+                Selected for a competitive data science fellowship serving CUNY
+                students pursuing degree in computer science.
+              </List.Item>
+              <List.Item>
+                Training in Python, Pandas, SQL, machine learning, and data
+                visualization through project-based coursework.
+              </List.Item>
+              <List.Item>
+                Engaging in technical interview preparation, professional
+                development, and industry networking opportunities.
+              </List.Item>
+            </List.Root>
+          </Box>
+        </Box>
+
         <Box>
           <Heading spaceY={2}>Property Manager</Heading>
           <Box spaceY={4}>
