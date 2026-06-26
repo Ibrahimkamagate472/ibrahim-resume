@@ -31,11 +31,11 @@ const Contact = () => {
             Ibrahimk3114@gmail.com
           </Link>
           <Link
-            href='mailto:ibrahim.kamagate472@myhunter.cuny.edu'
+            href='mailto:ibrahim.kamagate472@login.cuny.edu'
             _hover={{ color: 'gray.400' }}
             display='block'
           >
-            ibrahim.kamagate472@myhunter.cuny.edu
+            ibrahim.kamagate472@login.cuny.edu
           </Link>
           <Stack direction='row'>
             <Link
