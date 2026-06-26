@@ -8,7 +8,7 @@ const School = () => {
           <Heading>Hunter College</Heading>
           <Flex>
             <Text textIndent={2}>
-              Bachalor of Art in Computer Science, Minor in Mathematics
+              Bachelor of Arts in Computer Science, Minor in Mathematics
             </Text>
             <Text ml='auto'>Aug. 2024 - Dec. 2026</Text>
           </Flex>
